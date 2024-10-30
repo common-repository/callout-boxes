@@ -1,0 +1,63 @@
+.wp-coutb-callout-box {
+    border-radius: 4px;
+    box-sizing: border-box;
+    display: inline-flex;
+    margin-bottom: 1rem;
+    padding: 20px;
+    width: 100%;
+}
+
+.wp-coutb-callout-box.primary {
+    background-color: #DBEAFE;
+    border: 1px solid #BFDBFE;
+}
+
+.wp-coutb-callout-box.primary .wp-coutb-callout-box__icon.solid,
+.wp-coutb-callout-box.primary .wp-coutb-callout-box__icon.outline {
+    color: #1E40AF;
+}
+
+.wp-coutb-callout-box.success {
+    background-color: #DCFCE7;
+    border: 1px solid #BBF7D0;
+}
+
+.wp-coutb-callout-box.success .wp-coutb-callout-box__icon.solid,
+.wp-coutb-callout-box.success .wp-coutb-callout-box__icon.outline {
+    color: #15803D;
+}
+
+.wp-coutb-callout-box.danger {
+    background-color: #FEE2E2;
+    border: 1px solid #FECACA;
+}
+
+.wp-coutb-callout-box.danger .wp-coutb-callout-box__icon.solid,
+.wp-coutb-callout-box.danger .wp-coutb-callout-box__icon.outline {
+    color: #B91C1C;
+}
+
+.wp-coutb-callout-box.warning {
+    background-color: #FEF3C7;
+    border: 1px solid #FEF08A;
+}
+
+.wp-coutb-callout-box.warning .wp-coutb-callout-box__icon.solid,
+.wp-coutb-callout-box.warning .wp-coutb-callout-box__icon.outline {
+    color: #78350F;
+}
+
+.wp-coutb-callout-box p {
+    margin: 0 !important;
+}
+
+.wp-coutb-callout-box__icon {
+    height: 30px;
+    margin-right: 10px;
+    width: 30px;
+}
+
+.wp-coutb-callout-box__icon svg {
+    width: 30px;
+    height: 30px;
+}
